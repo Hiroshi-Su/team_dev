@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import MainLayout from "@/component/rayout/MainLayout";
+import MainLayout from "@/component/layout/MainLayout";
 import ShopIndex from "@/component/pages/shop/ShopIndex"
 import PostShopIndex from "@/component/pages/postshop/PostShopIndex"
 import ShopDetailIndex from "@/component/pages/shop/shopdetail/ShopDetailIndex"

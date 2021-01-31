@@ -1,1 +1,10 @@
-@import 'top'
+#app{
+
+    // layouts
+    @import './layouts/_layout';
+
+    // setting
+    @import './setting/_color';
+}
+
+
