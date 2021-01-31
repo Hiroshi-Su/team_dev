@@ -3,11 +3,19 @@ var path = require('path')
 module.exports = {
 
     configureWebpack: {
-    resolve: {
-        alias: {
-        vue$: 'vue/dist/vue.esm.js',
-        '@': path.resolve(__dirname, 'src/'),
+        resolve: {
+            alias: {
+            vue$: 'vue/dist/vue.esm.js',
+            '@': path.resolve(__dirname, 'src/'),
+            },
         },
     },
-    },
+
+    css: {
+        loaderOptions: {
+            sass: {
+                prependData: '@import "@/src/assets/app.scss";'
+            }
+        }
+    }
 } 
