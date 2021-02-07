@@ -11,11 +11,12 @@ module.exports = {
         },
     },
 
-    css: {
-        loaderOptions: {
-            sass: {
-                prependData: '@import "@/src/assets/app.scss";'
-            }
-        }
-    }
+    // css: {
+    //     loaderOptions: {
+    //         sass: {
+    //             additionalData: '@import "@/assets/scss/app.scss";'
+    //         }
+    //     }
+    // },
+    // productionSourceMap: true,
 } 

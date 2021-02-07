@@ -1,0 +1,45 @@
+#main-layout {
+  position: relative;
+  padding-right: 70px;
+}
+
+#main-layout .main-layout-text-wrap {
+  position: fixed;
+  right: 70px;
+  top: 30px;
+}
+
+#main-layout .main-layout-text-wrap .main-layout-text {
+  color: #2F2F2F;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#main-layout .main-layout-phrase-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-55%, -10%);
+          transform: translate(-55%, -10%);
+}
+
+#main-layout .main-layout-phrase-wrap .main-layout-phrase {
+  color: #2F2F2F;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#main-layout .main-layout-index {
+  width: 60%;
+  height: 100vh;
+}
+
+#main-layout .background-img {
+  background-image: url(img/mainLayout/vintage-image.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left bottom;
+}
+/*# sourceMappingURL=app.css.map */
