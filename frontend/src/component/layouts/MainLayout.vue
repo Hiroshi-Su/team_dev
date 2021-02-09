@@ -7,10 +7,12 @@
       <span class="char" v-for="ph in phrases" :key="ph.id">{{ph}}</span>
     </div>
     <div class="main-layout-index">
-      <div class="background-img">
+      <div class="background-img"></div>
     </div>
-    </div>
-    <SideBar/>
+    <div class="logo-img"></div>
+    <aside class="side-bar-wrap">
+      <SideBar/>
+    </aside>
     <router-view></router-view>
   </div>
 </template>
