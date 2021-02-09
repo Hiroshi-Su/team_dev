@@ -1,10 +1,15 @@
     // mixinsなどの使い回すscssを先に書き込む
+    // setting
+    @import 'setting/setting';
+    
     // mixins
     @import 'mixins/mixins';
     
     // layouts
     @import 'layouts/layouts';
 
-    
+    // parts
+    @import 'parts/parts';
+
 
 

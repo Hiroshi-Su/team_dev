@@ -1,5 +1,5 @@
 <template>
-  <div>
-  
+  <div id="side-bar">
+    
   </div>
 </template>
