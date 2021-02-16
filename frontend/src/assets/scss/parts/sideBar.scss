@@ -4,4 +4,50 @@
     width: 100%;
     height: 100%;
 
+    .navi-wrap{
+        margin-top: 22rem;
+        padding-left: 6rem;
+
+        & ul {
+            list-style-type: none;
+        }
+
+        .denim-button{
+            @include outline-button($width: 150px, $height: 40px);
+            margin-bottom: 10px;
+        }
+
+        .search-wrap{
+            margin-top: 90px;
+            display: flex;
+            flex-direction: column;
+
+            .search-box{
+                position: relative;
+                height: 40px;
+                width: 150px;
+
+                .icon-search{
+                    position: absolute;
+                    top: 50%;
+                    right: 5px;
+                    transform: translateY(-50%)
+                }
+            }
+            .search-form{
+                margin-bottom: 10px;
+                border: 1px solid #5D5D5F;
+                border-radius: 5px;
+                padding: 13px 14px;
+                width: 150px;
+                height: 40px;
+
+                &::placeholder{
+                    color: $light-gray;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
 }
