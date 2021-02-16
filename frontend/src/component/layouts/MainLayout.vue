@@ -3,17 +3,20 @@
     <div class="main-layout-text-wrap">
       <p class="main-layout-text">お気に入りの古着屋をみんなとシェアしよう</p>
     </div>
-    <div class="main-layout-phrase-wrap animation-drop" @mouseover="addDroppig" @mouseleave="removeDroppig" :class= {dropping:isActive}>
+    <div class="main-layout-phrase-wrap animation-drop" :class= {dropping:isActive}>
       <span class="char" v-for="ph in phrases" :key="ph.id">{{ph}}</span>
     </div>
     <div class="main-layout-index">
       <div class="background-img"></div>
     </div>
-    <div class="logo-img"></div>
-    <aside class="side-bar-wrap">
-      <SideBar/>
-    </aside>
-    <router-view></router-view>
+    <img src="/img/sideBar/vintage-font.svg" alt="Vintage Shop" class="logo-img">
+    <!-- <div class="logo-img"></div> -->
+    <section class="function-wrap">
+      <router-view></router-view>
+      <aside class="side-bar-wrap" @mouseover="addDroppig" @mouseleave="removeDroppig">
+        <SideBar/>
+      </aside>
+    </section>
   </div>
 </template>
 

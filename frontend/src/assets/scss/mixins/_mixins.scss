@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+// animation
 @mixin animation(
   $name,
   $duration: 1s,
@@ -18,4 +19,14 @@
     direction: $direction;
     fill-mode: $fill-mode;
   }
+}
+
+// style
+@mixin outline-button($width, $height){
+  width: $width;
+  height: $height;
+  background: $white;
+  border: 2px solid $black;
+  color: $black;
+  font-weight: bold;
 }
