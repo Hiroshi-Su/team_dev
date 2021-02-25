@@ -2,12 +2,13 @@
 
 #main-layout{
   position: relative;
-  padding-right: 70px;
+  // padding-right: 70px;
 
   .main-layout-text-wrap{
     position: fixed;
     right: 70px;
     top: 30px;
+    z-index: 4;
 
     .main-layout-text{
       color: #2F2F2F;
@@ -92,11 +93,20 @@
     left: 0;
     width: 100%;
     height: 100%;
+    display: flex;
+    overflow-y: scroll;
+  }
+
+  // main
+  .main-wrap{
+    width: 70%;
+    margin: 70px 0 0 auto;
   }
 
   // side bar
   .side-bar-wrap{
     width: 30%;
+    position: fixed;
     // position: absolute;
     // top: 0;
     // left: 0;

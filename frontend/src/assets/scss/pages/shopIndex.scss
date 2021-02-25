@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#shop-index{
+  display: flex;
+  flex-wrap: wrap;
+
+  .rect-wrap{
+    background: red;
+    width: 250px;
+    height: 440px;
+    margin: 0 45px 50px 0;
+  }
+}
