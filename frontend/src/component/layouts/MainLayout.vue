@@ -12,10 +12,12 @@
     <img src="/img/sideBar/vintage-font.svg" alt="Vintage Shop" class="logo-img">
     <!-- <div class="logo-img"></div> -->
     <section class="function-wrap">
-      <router-view></router-view>
       <aside class="side-bar-wrap" @mouseover="addDroppig" @mouseleave="removeDroppig">
         <SideBar/>
       </aside>
+      <main class="main-wrap">
+        <router-view></router-view>
+      </main>
     </section>
   </div>
 </template>

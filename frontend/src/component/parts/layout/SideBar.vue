@@ -18,6 +18,27 @@
           </label>
           <button class="denim-button">SEARCH</button>
         </form>
+        <p class="spot-search-title"><span aria-hidden="true" class="icon-location2"></span>人気のスポットから検索</p>
+        <li>
+          <router-link :to="{name : 'mainlayout'}" class="spot-search">
+            高円寺駅
+          </router-link>
+        </li>
+        <li>
+          <router-link :to="{name : 'mainlayout'}" class="spot-search">
+            下北沢駅
+          </router-link>
+        </li>
+        <li>
+          <router-link :to="{name : 'mainlayout'}" class="spot-search">
+            町田駅
+          </router-link>
+        </li>
+        <li>
+          <router-link :to="{name : 'mainlayout'}" class="spot-search">
+            渋谷駅
+          </router-link>
+        </li>
       </ul>
     </nav>
   </div>

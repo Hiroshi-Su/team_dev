@@ -2,7 +2,7 @@
 
 #side-bar{
     width: 100%;
-    height: 100%;
+    // height: 100%;
 
     .navi-wrap{
         margin-top: 22rem;
@@ -18,7 +18,7 @@
         }
 
         .search-wrap{
-            margin-top: 90px;
+            margin-top: 40px;
             display: flex;
             flex-direction: column;
 
@@ -47,6 +47,13 @@
                     font-size: 14px;
                 }
             }
+        }
+        .spot-search-title{
+            color: $white;
+            margin-bottom: 5px;
+        }
+        .spot-search{
+            color: $white;
         }
     }
 
